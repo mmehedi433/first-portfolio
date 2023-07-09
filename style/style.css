@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+.btn-secondery {
+    color: #fd6e0a;
+    background: white;
+}
+
+header,
+footer {
+    background: #fff8f3;
+}
+header {
+    /* background-image: ;
+    background-repeat: no-repeat;
+    background-position: top left; */
+
+    background-image: url("../images/header_bg.png"),
+        url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-size: auto, 96px auto;
+    /* background-position-x: right, left; */
+    /* background-position-y: bottom, 20px; */
+    background-position: right bottom, left 20px;
+}
+
+/* Nav Style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav #nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav #nav-title > span {
+    color: #fd6e0a;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+nav ul li a {
+    color: #474747;
+    text-decoration: none;
+}
+
+nav ul li button {
+    width: 150px;
+    height: 64px;
+}
+
+/* Banner Style */
+.banner {
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content {
+    width: 585px;
+}
+.banner-content > h3 {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+}
+.banner-content > h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-content > p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.banner-content .contact {
+    margin-left: 25px;
+}
+.banner-image > img {
+    width: 580px;
+    display: block;
+}
+
+/* main */
+main,
+.footer-content {
+    width: 1140px;
+    margin: auto;
+}
+section,
+footer {
+    text-align: center;
+    margin-top: 120px;
+}
+.about-me {
+    padding: 120px;
+
+    background: #fff8f3;
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description,
+.info-title {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-description {
+    color: #474747;
+    font-weight: 700;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+/* skill section */
+.what-to-do .part1 {
+    padding: 0px 120px 20px 120px;
+}
+.what-to-do .section-description {
+    margin: 20px 0px 20px 0px;
+}
+.skillset {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: left;
+}
+.skillset > div {
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 25px;
+}
+.skillset .skill-image {
+    width: 44px;
+    display: block;
+}
+.skillset .skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px;
+}
+.skillset .skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Resume Section Styles */
+.resume-info-division {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 100px;
+    margin-bottom: 30px;
+}
+.resume-info-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-parts {
+    text-align: left;
+}
+.resume-position {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.resume hr {
+    border: 1px solid #d1d1d1;
+    margin: 15px 0px 30px 0px;
+}
+
+/* footer started */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 110px;
+    padding: 130px 0px 150px 0px;
+    text-align: left;
+}
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+footer .social-media {
+    display: flex;
+    column-gap: 25px;
+    margin-top: 30px;
+}
+footer input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    outline: none;
+    border: none;
+    margin-bottom: 25px;
+    padding: 20px;
+}
